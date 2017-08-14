@@ -1,0 +1,44 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+.ul1 {
+    list-style-type: none;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.li1 {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #9f9f9f;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #fff;
+}
+
+.logo {
+  float: left;
+  margin-right: 10px;
+  margin-top: -10px;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+  color: #9f9f9f;
+}
+
+.logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
